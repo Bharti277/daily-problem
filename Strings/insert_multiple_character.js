@@ -7,7 +7,7 @@ function insertMultipleCharcter() {
   let result = "";
   let j = 0;
   for (let i = 0; i < str.length; i++) {
-    if (j > char.length && i == char[j]) {
+    if (j < char.length && i == char[j]) {
       result += "*";
       j++;
     }
