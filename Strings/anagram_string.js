@@ -8,3 +8,20 @@ function checkAnagram() {
   return newStr1 === newStr2;
 }
 checkAnagram();
+
+function checkAnagramStr() {
+  const charCount = {};
+  for (let ch of str1) {
+    charCount[ch] = (charCount[ch] || 0) + 1;
+  }
+  for (let ch of str2) {
+    charCount[ch] = (charCount[ch] || 0) - 1;
+  }
+  for (let key in charCount) {
+    if (charCount[key] !== 0) {
+      return false;
+    }
+  }
+  return true;
+}
+checkAnagramStr();
