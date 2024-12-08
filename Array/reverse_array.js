@@ -6,3 +6,5 @@ function reverseArray() {
   return arr.reverse();
 }
 reverseArray();
+
+// Reverse Array by using loop
