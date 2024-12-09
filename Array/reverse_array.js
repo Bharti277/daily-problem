@@ -7,4 +7,4 @@ function reverseArray() {
 }
 reverseArray();
 
-// Reverse Array by using loop
+// Reverse Array by using loop addition
