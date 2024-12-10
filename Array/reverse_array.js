@@ -8,3 +8,11 @@ function reverseArray() {
 reverseArray();
 
 // Reverse Array by using loop addition
+function reverseArrayLoop() {
+  let temp = [];
+  for (let i = arr.length - 1; i >= 0; i--) {
+    temp.push(arr[i]);
+  }
+  return temp;
+}
+reverseArrayLoop();
