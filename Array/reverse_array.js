@@ -1,4 +1,4 @@
-// Array Reverse method
+// Array Reverse inbuilt-method
 
 let arr = [1, 4, 3, 2, 6, 5];
 
@@ -7,7 +7,7 @@ function reverseArray() {
 }
 reverseArray();
 
-// Reverse Array by using loop addition
+// Reverse Array by using loop
 function reverseArrayLoop() {
   let temp = [];
   for (let i = arr.length - 1; i >= 0; i--) {
