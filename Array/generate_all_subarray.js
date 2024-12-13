@@ -1,3 +1,5 @@
+// Generate all Subarray
+
 let arr = [0, 1, 2, 3, 4];
 let n = arr.length;
 
