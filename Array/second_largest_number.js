@@ -1,3 +1,4 @@
+// Second Largest Element
 let arr = [4, 34, 56, 12, 10, 30, 89, 89, 110, 110, 76];
 
 function secondLargestNumber() {
