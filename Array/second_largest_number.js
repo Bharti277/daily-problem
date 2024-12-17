@@ -5,6 +5,7 @@ function secondLargestNumber() {
   let largest_num = -1;
   let second_num = -1;
   for (let i = 0; i < arr.length; i++) {
+    // largest element
     if (arr[i] > largest_num) {
       second_num = largest_num;
       largest_num = arr[i];
