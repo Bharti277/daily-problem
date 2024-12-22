@@ -1,4 +1,4 @@
-// Check rotation
+// Check for rotation
 function checkRotation(s1, s2) {
   let n = s1.length;
   for (let i = 0; i < n; i++) {
