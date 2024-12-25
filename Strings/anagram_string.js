@@ -1,4 +1,4 @@
-// Check if two Strings are Anagrams of each other
+// Check if two Strings are Anagrams of each other or not
 
 let str1 = "geeks";
 let str2 = "kseeg";
