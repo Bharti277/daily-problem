@@ -9,7 +9,7 @@ function checkAnagram() {
 }
 checkAnagram();
 
-// Using loop method
+// Using loop method anagram
 function checkAnagramStr() {
   const charCount = {};
   for (let ch of str1) {
