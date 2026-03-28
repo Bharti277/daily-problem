@@ -1,4 +1,4 @@
-function reversePrefix(word, ch) {
+function reversePrefix(word, k) {
   let arr = word.split("");
   let left = 0;
   let right = Math.min(k - 1, word.length - 1);

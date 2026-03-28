@@ -1,6 +1,7 @@
 const p1 = new Promise((resolve, reject) => {
   setTimeout(() => {
-    resolve("promise 1 is resolved");
+    // resolve("promise 1 is resolved");
+    reject("promise 1 is rejected");
   }, 5000);
 });
 
@@ -13,8 +14,9 @@ const p2 = new Promise((resolve, reject) => {
 
 const p3 = new Promise((resolve, reject) => {
   setTimeout(() => {
-    resolve("promise 3 is resolved");
-  }, 2000);
+    // resolve("promise 3 is resolved");
+    reject("promise 3 is rejected");
+  }, 4000);
 });
 
 // promise all
