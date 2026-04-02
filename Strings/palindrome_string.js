@@ -1,11 +1,11 @@
 // Palindrome String
 
-let str = "abac";
+let str = "madam";
 function checkPalindrome() {
-  for (let i = 0; i < str.length; i++) {
-    if (str[i] === str[str.length - 1 - i]) return true;
+  for (let i = 0; i < str.length / 2; i++) {
+    if (str[i] !== str[str.length - 1 - i]) return false;
   }
-  return false;
+  return true;
 }
 
-checkPalindrome();
+console.log(checkPalindrome());
